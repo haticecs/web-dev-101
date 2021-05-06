@@ -8,11 +8,6 @@ body {
   padding: 5px;
 }
 
-/*  font-family: 'Playfair Display', serif;
-  font-family: 'Roboto', sans-serif;
-
-*/
-
 .main-title {
   font-family: 'Playfair Display', serif;
   text-align: center;
@@ -20,8 +15,9 @@ body {
   font-size: 50px;
 }
 
+/* flex-direction is default row */
 .row {
-  display: flex; /*flex-direction is default row*/
+  display: flex;
   align-items: stretch;
   width: '%100';
   border-left: 1px solid black;
