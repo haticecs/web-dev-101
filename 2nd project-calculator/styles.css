@@ -44,17 +44,17 @@ button {
   white-space: unset;
   cursor: pointer;
   border: 1px solid black;
-  opacity: 0.9
+  opacity: 0.9;
 }
 
-button:hover{
-  opacity:1.2
+button:hover {
+  opacity: 1.2;
 }
 
 button:active {
-  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-  opacity:1.2;
+  box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  opacity: 1.2;
 }
 
 .quarter {
@@ -68,7 +68,7 @@ button:active {
   width: 75%;
 }
 
-.row button:last-child {
+button:last-child {
   background-color: #e65100;
   color: white;
 }
