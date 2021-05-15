@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get Cute Cat</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="title">🐾 Get Cute Cat 🐾</h1>
+      <div class="row">
+        <label for="user-text">Type a text</label>
+        <input
+          type="text"
+          name="user-text"
+          id="user-text"
+          placeholder="hello"
+          required
+        />
+      </div>
+      <div class="row">
+        <label for="user-font"> Font-size </label>
+        <input
+          type="number"
+          name="user-font"
+          id="user-font"
+          placeholder="20"
+          value="20"
+        />
+      </div>
+      <div class="row">
+        <label for="user-color">Pick a color</label>
+        <input type="color" name="user-color" id="user-color" value="black" />
+      </div>
+      <button type="button" class="button">😻</button>
+    </section>
+    <script src="./App.js"></script>
+  </body>
+</html>
