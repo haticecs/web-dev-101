@@ -40,14 +40,12 @@ label {
   align-self: center;
   cursor: pointer;
   text-align: center;
-  border-radius: 16px;
-  border: 1px solid white;
   padding: 10px;
-  color: white;
-  background: none;
   font-size: 30px;
+  background: none;
+  border: none;
 }
 
 .button:active {
-  font-size: 38px;
+  font-size: 40px;
 }
