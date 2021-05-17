@@ -17,16 +17,10 @@
       <h1 class="title">🐾 Get Cute Cat 🐾</h1>
       <div class="row">
         <label for="user-text">Type a text</label>
-        <input
-          type="text"
-          name="user-text"
-          id="user-text"
-          placeholder="hello"
-          required
-        />
+        <input type="text" name="user-text" id="user-text" value="hello" />
       </div>
       <div class="row">
-        <label for="user-font"> Font-size </label>
+        <label for="user-font">Font-size </label>
         <input
           type="number"
           name="user-font"
@@ -36,10 +30,12 @@
         />
       </div>
       <div class="row">
-        <label for="user-color">Pick a color</label>
-        <input type="color" name="user-color" id="user-color" value="black" />
+        <label for="user-color">Type a color</label>
+        <input type="text" name="user-color" id="user-color" value="white" />
       </div>
-      <button type="button" class="button">😻</button>
+      <div class="button-container">
+        <button type="button" class="button">😻</button>
+      </div>
     </section>
     <script src="./App.js"></script>
   </body>
